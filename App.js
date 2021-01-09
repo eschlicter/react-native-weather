@@ -8,7 +8,7 @@ export default function App() {
       <Text style={[styles.largeText, styles.textStyle]}>Light Cloud</Text>
       <Text style={[styles.largeText, styles.textStyle]}>24°</Text>
 
-    <SearchInput />
+    <SearchInput placeholder="Search any city" />
       
     </KeyboardAvoidingView>
   );
